@@ -1,36 +1,7 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Metodos {
+public class Campeones {
     
-    public static int sumar(int a, int b) {
-        return a + b;
-    }
-    
-    public static int restar(int a, int b) {
-        return a - b;
-    }
-
-    public static double dividir(int a, int b) {
-        return (double) a / b;
-    }
-   
-    // Metodo que crea un arraylist y para llamarlo desde otro fichero
-    // lo llamaremos con getCampeones
-    public static ArrayList<String> getCampeones() {
-        // Creo un arraylist con los campeones
-        ArrayList<String> champions = new ArrayList<>();
-        
-        //Añado los campeones a la lista
-        champions.add("Ahri");
-        champions.add("Ezreal");
-        champions.add("Garen");
-        champions.add("Jinx");
-        champions.add("Lux");
-        // Devuelvo los campeones, pero el encargado de devolver es getCampeones
-        return champions;
-    }
-
     public static HashMap<Integer, String> getHashMap() {
 
         HashMap<Integer, String> campeones = new HashMap<>();

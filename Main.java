@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Campeones HashMap:");
-        HashMap<Integer, String> campeonesHashMap = Metodos.getHashMap();
+        HashMap<Integer, String> campeonesHashMap = Campeones.getHashMap();
         for (Integer key : campeonesHashMap.keySet()) {
             String value = campeonesHashMap.get(key);
             System.out.println(key + ": " + value);
